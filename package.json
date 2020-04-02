@@ -6,7 +6,7 @@
   "homepage": "https://clcole.github.io/react.setup-react-from-scratch/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -o github",
+    "deploy": "gh-pages -d dist -o github -b gh-pages",
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
